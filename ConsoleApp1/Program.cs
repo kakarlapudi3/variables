@@ -13,8 +13,8 @@ internal class Program
         Console.WriteLine("Enter in your dog's name:");
         dogName = Console.ReadLine();
 
-        Console.WriteLine(dogName);
-        Console.WriteLine(dogAge);
+        Console.WriteLine($"My dog's name is {dogName}, He is {dogAge} years old");
+        Console.WriteLine($"{dogName} walked {milesWalked} miles and has a height of {height}");
 
     }
 
